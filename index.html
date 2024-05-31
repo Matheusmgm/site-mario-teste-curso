@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🍄mario encanador</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div onclick="escondercliqueinobotao()" class="mascara-formulario"></div>
+
+    <div class="header">
+        <img src="./img/icon.png" alt="icone-mario">
+        <a>home</a>
+        <a>nossos serviços</a>
+        <a>fale conosco</a>
+        <!--acima tem o cabeçalho do site-->
+
+    </div>
+    <div class="caixa-mae">
+        <div class="caixa-principal">
+            <img src="./img/logo.png" class="imagem-logo-mario" alt="imagem-logo-mario">
+            <p>bem vindo ao nosso site .Somos os irmãos Marios brothers</p>
+            <p>Resolvemos qualquer problema de encanamento .Somos os encanadores mais habilidosos do reino dos cogumelos
+            </p>
+            <p>Se estiver com algum problema, não hesite em nos chamar</p>
+            <button onclick="cliqueinobotao()" class="botao-entre-contato">entre em contato</button>
+            <!-- acima tem a imagem logo do mario e abaixo dessa imagem tem o texto de boas vindas -->
+        </div>
+
+        <div>
+            <img src="./img/mario.png" class="imagem-mario-e-luigi" alt="imagem-mario-e-luigi">
+        </div>
+        <!--acima tem a imagem dos irmãos mario que fica ao lado direiro da pagina-->
+    </div>
+
+    <div class="caixa-video">
+        <video src="./video/video.mp4" autoplay muted loop></video>
+        <div class="mascara"></div>
+    </div>
+    <!--acima tem o video que fica de fundo do site rodando infinitamente-->
+
+    <a href="https://wa.me/5521991101113?text=falar+com+os+irm%C3%A3os+mario" class="link-whatsapp">
+        <img src="./img/whatsapp.png" alt="link-para-whatsapp" class="botao-whatsapp">
+    </a>
+    <!--botão de chamada para whatsapp-->
+
+    <form action="https://formcarry.com/s/wRwSIOw3tu6" method="POST" enctype="multipart/form-data"
+        class="formulario-fale-conosco">
+        <input placeholder="Nome" type="text" name="nome">
+        <input placeholder="Seu telefone" type="tel" name="telefone">
+        <input placeholder="seu email" type="email" name="email">
+        <textarea name="duvida" placeholder="digite seu problema aqui..."></textarea>
+        <button type="submit">pedir orçamento</button>
+    </form>
+    <!--acima tem um formulario que fica do lado esquerdo no cantinho do site-->
+
+</body>
+<script src="scripts.js"></script>
+
+</html>
